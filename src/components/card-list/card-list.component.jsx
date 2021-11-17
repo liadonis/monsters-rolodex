@@ -8,7 +8,6 @@ export const CardList = props => (
             props.monsters.map((monster, index) => {
                 return (
                     <Card key={monster.id} monster={monster} />
-
                 )
             })
         }
